@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Personalinfo.css";
 import profilePic from "../../profile.png";
 
-const Personalinfo = () => {
+const Personalinfo = ({activityTime}) => {
   const [time, setTime] = useState(0);
   const setTimeOnDB = (getTime) => {
     localStorage.setItem('time', getTime);
@@ -68,7 +68,7 @@ const Personalinfo = () => {
         <h5>Exercise Details</h5>
         <div>
           <h6>Exercise time</h6>
-          <p>0m</p>
+          <p>{activityTime}m</p>
         </div>
         <div>
           <h6>Break time</h6>

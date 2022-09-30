@@ -3,7 +3,7 @@ import Card from "../Card/Card";
 import Header from "../Header/Header";
 import "./Activity.css";
 
-const Activity = () => {
+const Activity = ({activitiesTime}) => {
   const [activities, setActivities] = useState([]);
   useEffect(() => {
     fetch("data.json")
@@ -17,7 +17,7 @@ const Activity = () => {
       <h2>Select today’s exercise</h2>
       <div className="mainCardContainer">
         {activities.map((activity) => (
-          <Card key={activity.id} activity={activity}></Card>
+          <Card activitiesTime={activitiesTime} key={activity.id} activity={activity}></Card>
         ))}
       </div>
     </div>
