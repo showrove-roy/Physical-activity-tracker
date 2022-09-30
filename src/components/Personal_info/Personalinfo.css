@@ -2,6 +2,10 @@
   padding: 20px 20px;
   background-color: #fff;
 }
+.personalInfoBox{
+  position: sticky;
+  top: 1rem;
+}
 .profile img {
   height: 50px;
   margin-right: 5px;
@@ -81,4 +85,29 @@ h5 {
 }
 .btnCompleted:hover {
   background-color: #27ae60;
+}
+
+
+@media only screen and (max-width: 991.98px) {
+.personalInfoBox {
+    position: relative;
+    width: 30rem;
+    margin: 10px auto 5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+.personalInfoBox {
+    position: relative;
+    width: 25rem;
+    margin: 10px auto 5rem;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+.personalInfoBox {
+    position: relative;
+    width: 18rem;
+    margin: 10px auto 5rem;
+  }
 }

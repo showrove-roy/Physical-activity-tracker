@@ -1,6 +1,5 @@
 .activityContainer{
-    padding: 1rem 2rem;
-    background-color: #f2f4fa;
+    margin: 1rem 2rem;
 }
 .activityContainer h2{
     margin-top: 1.5rem;
@@ -10,4 +9,29 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
+}
+
+@media only screen and (max-width: 1199.98px) {
+    .mainCardContainer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .activityContainer {
+            margin: 5px auto 2rem;
+        }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .mainCardContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activityContainer {
+        margin: 5px auto 2rem;
+    }
 }

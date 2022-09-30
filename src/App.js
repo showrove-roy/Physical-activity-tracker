@@ -3,7 +3,7 @@ import LandingPage from './components/LandingPage/LandingPage';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <LandingPage></LandingPage>
     </div>
   );
