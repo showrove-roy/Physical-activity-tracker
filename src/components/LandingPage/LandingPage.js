@@ -7,7 +7,7 @@ const LandingPage = () => {
     return (
         <div className='pageContainer'>
             <Activity></Activity>
-            <Personalinfo></Personalinfo>
+            <Personalinfo className='personalContainer'></Personalinfo>
         </div>
     );
 };

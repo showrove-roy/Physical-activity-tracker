@@ -1,7 +1,84 @@
-.personalinfo{
-    padding: 20px 10px;
+.personalinfo {
+  padding: 20px 20px;
+  background-color: #fff;
 }
-.profile img{
-    height: 50px;
-    margin-right: 5px;
+.profile img {
+  height: 50px;
+  margin-right: 5px;
+}
+.detailsInfo {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e8ebf5;
+  padding: 10px 5px;
+  font-size: 15px;
+  color: #000000c6;
+  border-radius: 4px;
+}
+p,
+strong {
+  margin: 0;
+  text-align: center;
+}
+
+/* Break Container */
+.breakContainer,
+.exerciseDetails {
+  margin-top: 2rem;
+}
+h5 {
+  margin: 8px 0;
+}
+.timeBox {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e8ebf5;
+  padding: 12px 5px;
+  border-radius: 4px;
+}
+.timeBox span {
+  height: 36px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  color: #000000c6;
+  font-weight: 600;
+}
+.timeBox span:hover {
+  background-color: #5d5fef;
+  color: #fff;
+}
+
+/* Exercise Details */
+.exerciseDetails div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e8ebf5;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Btn Completed */
+.btnCompleted {
+  margin-top: 30px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 0;
+  background-color: #5d5fef;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btnCompleted:hover {
+  background-color: #27ae60;
 }

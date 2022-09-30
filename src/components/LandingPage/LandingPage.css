@@ -2,3 +2,7 @@
     display: grid;
     grid-template-columns: 7fr 2fr;
 }
+.personalContainer{
+    position: sticky;
+    top: 0;
+}
