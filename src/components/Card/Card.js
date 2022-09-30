@@ -9,8 +9,8 @@ const Card = (props) => {
                 <img src={img} alt="" />
                 <h4>{name}</h4>
                 <p>{details}</p>
-                <h6>For Age: {forAge}</h6>
-                <h6>Time required: {time}</h6>
+                <h6>For Age: {forAge} Y</h6>
+                <h6>Time required: {time}m</h6>
                 <button>Add to list</button>
 
             
