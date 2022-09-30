@@ -21,7 +21,7 @@
         "img":"./images/3.png",
         "forAge":"18-45",
         "time":30,
-        "details":"Basketball is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball through the defender's hoop"
+        "details":"Basketball is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court"
     },
     {
         "id": "6331c5fb5202c0a7f5bdd5ec4",
@@ -29,7 +29,7 @@
         "img":"./images/4.png",
         "forAge":"10-45",
         "time":10,
-        "details":"In sport, racing is a competition of speed, in which competitors try to complete a given task in the shortest amount of time. Typically this involves traversing some distance, but it can be any other task involving speed to reach a specific goal."
+        "details":"In sport, racing is a competition of speed, in which competitors try to complete a given task in the shortest amount of time."
     },
     {
         "id": "6331c5fb5202c0a7f5bdd5ec5",
@@ -37,7 +37,7 @@
         "img":"./images/5.png",
         "forAge":"25-65",
         "time":10,
-        "details":"When we meditate, we inject far-reaching and long-lasting benefits into our lives: We lower our stress levels, we get to know our pain, we connect better, we improve our focus, and we're kinder to ourselves."
+        "details":"When we meditate, we inject far-reaching and long-lasting benefits into our lives: We lower our stress levels, we get to know our pain,"
     },
     {
         "id": "6331c5fb5202c0a7f5bdd5ec6",
@@ -45,7 +45,7 @@
         "img":"./images/6.png",
         "forAge":"18-45",
         "time":30,
-        "details":"Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of cycles for transport, recreation, exercise or sport."
+        "details":"Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of cycles for transport, recreation"
     },
     {
         "id": "6331c5fb5202c0a7f5bdd5ec7",
@@ -53,7 +53,7 @@
         "img":"./images/7.png",
         "forAge":"18-45",
         "time":5,
-        "details":"The push-up is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms, push-ups exercise the pectoral muscles, triceps, and anterior deltoids, with ancillary benefits to the rest of the deltoids."
+        "details":"The push-up is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms"
     },
     {
         "id": "6331c5fb5202c0a7f5bdd5ec8",
@@ -61,7 +61,7 @@
         "img":"./images/8.png",
         "forAge":"18-45",
         "time":3,
-        "details":"What is jumping rope? Jumping rope is a form of exercise that involves swinging a rope around your body and jumping over it as it passes under your feet."
+        "details":"What is jumping rope? Jumping rope is a form of exercise that involves swinging a rope around your body and jumping."
     },
     {
         "id": "6331c5fb5202c0a7f5bdd5ec9",
@@ -69,6 +69,6 @@
         "img":"./images/9.png",
         "forAge":"18-30",
         "time":5,
-        "details":"Weight training is a common type of strength training for developing the strength and size of skeletal muscles. It uses the force of gravity in the form of weighted bars, dumbbells or weight stacks."
+        "details":"Weight training is a common type of strength training for developing the strength and size of skeletal muscles."
     }
 ]
