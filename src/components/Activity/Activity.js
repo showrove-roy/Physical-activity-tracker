@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Card from "../Card/Card";
 import Header from "../Header/Header";
+import QNA from "../QNA/QNA";
 import "./Activity.css";
 
 const Activity = ({ activitiesTime }) => {
@@ -23,6 +24,8 @@ const Activity = ({ activitiesTime }) => {
             activity={activity}></Card>
         ))}
       </div>
+
+      <QNA></QNA>
     </div>
   );
 };

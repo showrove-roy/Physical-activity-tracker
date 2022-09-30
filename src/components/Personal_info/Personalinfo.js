@@ -1,8 +1,21 @@
 import React, { useEffect, useState } from "react";
 import "./Personalinfo.css";
 import profilePic from "../../profile.png";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Personalinfo = ({ activityTime }) => {
+  const notify = () =>
+    toast.success("🦄 Wow Activity Completed!", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+
   const [time, setTime] = useState(0);
   const setTimeOnDB = (getTime) => {
     localStorage.setItem("time", getTime);
@@ -79,9 +92,13 @@ const Personalinfo = ({ activityTime }) => {
 
         {/* Activity Completed */}
         <div>
-          <button className='btnCompleted'>Activity Completed</button>
+          <button onClick={notify} className='btnCompleted'>
+            Activity Completed
+          </button>
         </div>
       </div>
+
+      <ToastContainer />
     </div>
   );
 };
