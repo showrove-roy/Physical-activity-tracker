@@ -1,5 +1,6 @@
 .activityContainer{
-    padding: 0 2rem;
+    padding: 1rem 2rem;
+    background-color: #f2f4fa;
 }
 .activityContainer h2{
     margin-top: 1.5rem;

@@ -1,11 +1,37 @@
 .cardContainer{
-}
-.card{
     padding: 10px;
-    border: 2px solid salmon;
     width: 260px;
-    height: 400px;
+    height: 360px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: relative;
 }
-.card img{
-    height: 130px;
+.cardContainer img{
+    width: 100%;
+    border-radius: 6px;
+}
+.cardContainer h4, h6{
+    margin: 5px 0;
+}
+.cardContainer p{
+text-align: justify;
+font-size: 14px;
+color: rgba(0, 0, 0, 0.53);
+font-weight: 500;
+}
+.cardContainer button{
+    position: absolute; 
+   bottom: 10px;
+   width: 260px;
+   height: 35px;
+   border: none;
+   border-radius: 4px;
+   font-size: 15px;
+   font-weight: 600;
+background-color: #5d5fef;
+color: #fff;
+cursor: pointer;
+}
+.cardContainer button:hover{
+    background-color: #27ae60;
 }
